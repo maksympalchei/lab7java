@@ -9,10 +9,12 @@ package lab7;
  * @author korjk
  */
 public class Synthesizer extends MusicalInstrument {
+
     String[] TypesOfSynthesis;
+
     public Synthesizer(String name, String[] appointment, String[] soundsource, String soundrange) {
         super(name, appointment, soundsource, soundrange);
-        this.TypesOfSynthesis =new String[]{"Підсумовувальний","Віднімальний","Табличний","Операторний","Фізичний"};
+        this.TypesOfSynthesis = new String[]{"Підсумовувальний", "Віднімальний", "Табличний", "Операторний", "Фізичний"};
     }
-    
+
 }

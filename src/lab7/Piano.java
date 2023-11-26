@@ -9,10 +9,12 @@ package lab7;
  * @author korjk
  */
 public class Piano extends MusicalInstrument {
+
     String WhereComeFrom;
+
     public Piano(String name, String[] appointment, String[] soundsource, String soundrange) {
         super(name, appointment, soundsource, soundrange);
         WhereComeFrom = "Назва походить від італійських слів forte(голосно) та piano(тихо)";
     }
-    
+
 }

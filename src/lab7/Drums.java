@@ -9,10 +9,12 @@ package lab7;
  * @author korjk
  */
 public class Drums extends MusicalInstrument {
+
     String[] Architecture;
+
     public Drums(String name, String[] appointment, String[] soundsource, String soundrange) {
         super("Барабани", appointment, soundsource, soundrange);
-        this.Architecture = new String[]{"Певний вид шкіри","резонатор"};
+        this.Architecture = new String[]{"Певний вид шкіри", "резонатор"};
     }
-    
+
 }

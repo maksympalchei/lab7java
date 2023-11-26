@@ -69,15 +69,15 @@ public abstract class MusicalInstrument {
     private String[] Appointment; //Призначення (сольні, навчальні, оркестрові, кабінетні тощо)
     private String[] SoundSource; //Джерело звуку (струнні, язичкові, духові, ударні, електромузичні)
     private String SoundRange; //Діапазон звучання
-    public MusicalInstrument(String name, String[] appointment, String[] soundsource, String soundrange)
-    {
+
+    public MusicalInstrument(String name, String[] appointment, String[] soundsource, String soundrange) {
         Name = name;
         Appointment = appointment;
         SoundSource = soundsource;
         SoundRange = soundrange;
     }
-    public void PlayInst()
-    {
-        System.out.println("Ви зіграли на інструменті:"+this.getName());
+
+    public void PlayInst() {
+        System.out.println("Ви зіграли на інструменті:" + this.getName());
     }
 }
