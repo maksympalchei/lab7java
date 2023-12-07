@@ -67,7 +67,7 @@ public class Lab7 {
     }
 
     public static void MainMenu() {
-        System.out.println("Головне меню");
+        System.out.println("Головне меню!");
         System.out.println("1. Зіграти на інструменті");
         System.out.println("2. Вивести інформацію про інструмент");
         System.out.println("3.Вихід");
